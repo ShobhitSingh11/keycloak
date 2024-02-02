@@ -24,7 +24,7 @@ import java.net.UnknownHostException;
  * @author <a href="mailto:mposolda@redhat.com">Marek Posolda</a>
  */
 public class HostUtils {
-
+    // tgr
     // Best effort to find the most proper hostname of this server.
     public static String getHostName() {
         return getHostNameImpl().trim().toLowerCase();
