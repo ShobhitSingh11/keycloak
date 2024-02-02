@@ -44,7 +44,7 @@ import java.util.stream.Stream;
 public class Profile {
 
     private static volatile Map<String, TreeSet<Feature>> FEATURES;
-
+    // qazf
     public enum Feature {
         AUTHORIZATION("Authorization Service", Type.DEFAULT),
 
