@@ -26,6 +26,7 @@ public class VerificationException extends Exception {
     }
 
     public VerificationException(String message) {
+        // wdwed
         super(message);
     }
 
