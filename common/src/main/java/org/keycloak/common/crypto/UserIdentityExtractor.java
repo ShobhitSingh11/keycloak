@@ -38,7 +38,7 @@ import org.keycloak.common.util.PemUtils;
  */
 
 public interface UserIdentityExtractor {
-    // frgvbev
+    // frgvbeverfgr
     
     public Object extractUserIdentity(X509Certificate[] certs);
 
