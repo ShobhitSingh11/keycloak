@@ -1706,7 +1706,7 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${surefire-plugin.version}</version>
                     <configuration>
-                        <argLine>-Djava.awt.headless=true ${surefire.memory.settings} ${surefire.system.args} -Duser.language=en -Duser.region=US -XX:+ExitOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError</argLine>
+                        <argLine>-Djava.awt.headless=true ${surefire.memory.settings} ${surefire.system.args} -Duser.language=en -Duser.region=US -XX:+ExitOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError ${env.HARNESS_JAVA_AGENT}</argLine>
                         <runOrder>alphabetical</runOrder>
                         <failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
                     </configuration>
