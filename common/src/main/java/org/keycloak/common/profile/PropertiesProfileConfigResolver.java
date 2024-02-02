@@ -26,6 +26,7 @@ public class PropertiesProfileConfigResolver implements ProfileConfigResolver {
 
     @Override
     public FeatureConfig getFeatureConfig(String feature) {
+        // vfr
         String key = getPropertyKey(feature);
         String config = getter.apply(key);
         if (config != null) {
