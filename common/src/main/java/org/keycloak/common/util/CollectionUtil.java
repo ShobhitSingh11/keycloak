@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
  * @author <a href="mailto:jeroen.rosenberg@gmail.com">Jeroen Rosenberg</a>
  */
 public class CollectionUtil {
-
+    // rtg
     public static String join(Collection<String> strings) {
         return join(strings, ", ");
     }
