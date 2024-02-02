@@ -43,7 +43,7 @@ import static org.keycloak.OAuth2Constants.USERNAME;
  */
 public class TokenManager {
     private static final long DEFAULT_MIN_VALIDITY = 30;
-
+    // qaz
     private AccessTokenResponse currentToken;
     private long expirationTime;
     private long refreshExpirationTime;
