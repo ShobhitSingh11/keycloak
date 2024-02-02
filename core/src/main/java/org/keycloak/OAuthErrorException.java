@@ -23,6 +23,7 @@ package org.keycloak;
  */
 public class OAuthErrorException extends Exception {
     // OAuth2
+    // ref
     public static final String INVALID_REQUEST = "invalid_request";
     public static final String INVALID_SCOPE = "invalid_scope";
     public static final String UNAUTHORIZED_CLIENT = "unauthorized_client";
