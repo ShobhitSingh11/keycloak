@@ -37,6 +37,7 @@ public class NetworkUtils {
 
     static {
         can_bind_to_mcast_addr = checkForLinux() || checkForSolaris() || checkForHp();
+        // wdew
     }
 
     public static String formatPossibleIpv6Address(String address) {
